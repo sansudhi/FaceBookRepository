@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="60706" started-at="2021-01-12T13:45:50Z" finished-at="2021-01-12T13:46:50Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="60706" started-at="2021-01-12T13:45:50Z" finished-at="2021-01-12T13:46:50Z">
+      <class name="test_scripts.Facebook_TestScript">
+        <test-method status="PASS" signature="open_Application()[pri:0, instance:test_scripts.Facebook_TestScript@5419f379]" name="open_Application" is-config="true" duration-ms="39269" started-at="2021-01-12T19:15:50Z" finished-at="2021-01-12T19:16:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open_Application -->
+        <test-method status="PASS" signature="facebookLogin()[pri:0, instance:test_scripts.Facebook_TestScript@5419f379]" name="facebookLogin" duration-ms="14077" started-at="2021-01-12T19:16:29Z" finished-at="2021-01-12T19:16:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- facebookLogin -->
+        <test-method status="PASS" signature="close_Application(org.testng.ITestResult)[pri:0, instance:test_scripts.Facebook_TestScript@5419f379]" name="close_Application" is-config="true" duration-ms="7335" started-at="2021-01-12T19:16:43Z" finished-at="2021-01-12T19:16:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=facebookLogin status=SUCCESS method=Facebook_TestScript.facebookLogin()[pri:0, instance:test_scripts.Facebook_TestScript@5419f379] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_Application -->
+      </class> <!-- test_scripts.Facebook_TestScript -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
